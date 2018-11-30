@@ -140,7 +140,7 @@ function calculateWinner(squares) {
 }
 
 function allFilled(squares) {
-  return squares.every( i => i != null);
+  return squares.every( s => s != null);
 }
 
 // ========================================
